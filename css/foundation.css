@@ -5,6 +5,10 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:local('SourceSansPro-Regular'),url(/css/sourcesanspro.woff) format('woff');}
+@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:600;src:local('SourceSansPro-SemiboldIt'),url(/css/sourcesansprosemiboldit.woff) format('woff');}
+@font-face{font-family:'Droid Sans Mono';font-style:normal;font-weight:400;src:local('DroidSansMono'),url(/css/droidsansmono.woff) format('woff');}
+
 html,
 body {
   font-size: 16px; }
@@ -14,7 +18,7 @@ body {
   color: #839496;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -692,10 +696,10 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  font-style: normal;
-  color: #cb4b16;
+  font-family: "Source Sans Pro", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  color: #dc322f;
   text-rendering: optimizeLegibility;
   margin-top: 0.2em;
   margin-bottom: 0.5em;
